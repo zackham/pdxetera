@@ -1,0 +1,16 @@
+.nav {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  li {
+    margin: 0;
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
